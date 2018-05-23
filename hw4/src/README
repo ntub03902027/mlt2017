@@ -1,0 +1,20 @@
+1. The file "prob12.py", is the source code for problems "Experiments with Random Forest" (Questions 12-16), and is the only source code in this homework.
+2. Please use python 2.7, but not python 3.x to execute the codes
+3. The directory "data/" and must be included to correctly execute the program.
+
+4. Since constructing 30000 trees takes time, and the outputs are loooooooong, if you just want to output results of some of the questions, please follow the following usage:
+	
+	python2 prob12.py [problems to process]
+
+For instance:
+
+	python2 prob12.py 12-14,16
+
+will print the results of problems 12, 13, 14 and 16. If no problems are specified (i.e. len(sys.argv) == 1 ), by default, the program will print results of all problems. Note that all the following commands are invalid:
+
+	python2 prob12.py 12, 13, 15	      (no spaces between them)
+	python2 prob12.py 11,13,14			  (the problems should be between 12 and 16)
+	python2 prob12.py 14-12				  (must be "12-14")
+	python2 prob12.py 12,14,			  (redundant comma)
+	python2 prob12.py prob12,question16	  (numbers only, no strings with non-number and comma)
+	python2 prob12.py 12,13 sdlkjhvbsjk	  (redundant arguments)

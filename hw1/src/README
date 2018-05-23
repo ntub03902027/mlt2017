@@ -1,0 +1,3 @@
+0. There are 5 source codes from Q11-Q16, where Q12 & Q13 are contained in a same file (prob12.py)
+1. The libsvm codes are in libsvm/, and the train data are in data/
+2. Please use python 2.7.
